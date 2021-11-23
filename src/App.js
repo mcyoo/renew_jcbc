@@ -25,7 +25,7 @@ class App extends React.Component {
         level: 9,
       };
       const map = new window.kakao.maps.Map(container, options);
-      var imageSize = new kakao.maps.Size(25, 25);
+      var imageSize = new kakao.maps.Size(30, 30);
       var markerImage = new kakao.maps.MarkerImage(jcbc_logo, imageSize);
 
       this.state.feed_location.map((location) => {
@@ -413,7 +413,7 @@ class App extends React.Component {
               </div>
 
               <div className="w-screen overflow-x-hidden text-center">
-                <div className="mb-6 text-lg">활동 지역</div>
+                <div className="mb-4 text-lg">활동 지역</div>
                 <div
                   onMouseDown={(e) => {
                     e.preventDefault();
@@ -429,7 +429,7 @@ class App extends React.Component {
               </div>
 
               <div className="w-screen overflow-x-hidden">
-                <div className="text-center text-lg mb-4 text-gray-800 mt-5">
+                <div className="text-center text-lg mb-4 text-gray-800">
                   시즌1
                 </div>
                 <div className="flex flex-wrap text-xs md:text-sm md:mx-24 mx-2 justify-items-auto justify-evenly">
