@@ -43,9 +43,9 @@ class App extends React.Component {
     return (
       <div>
         <div className="w-screen overflow-x-hidden">
-          <div className="text-center text-lg mb-4 text-gray-800">시즌1 39명</div>
+          <div className="text-center text-lg mb-4 text-gray-800">시즌3 51명</div>
           <div className="flex flex-wrap text-xs md:text-sm md:mx-24 mx-2 justify-items-auto justify-evenly">
-            {friend_profile1.map((profile) => (
+            {friend_profile3.map((profile) => (
               <div
                 className="flex flex-col items-center md:mx-10 md:mb-12 mx-2 mb-6"
                 key={profile.id}
@@ -93,10 +93,10 @@ class App extends React.Component {
           </div>
 
           <div className="text-center text-lg mb-6 text-gray-800 mt-10">
-            시즌3 51명
+            시즌1 39명
           </div>
           <div className="flex flex-wrap text-xs md:text-sm mx-2 md:mx-24 justify-items-auto justify-evenly">
-            {friend_profile3.map((profile) => (
+            {friend_profile1.map((profile) => (
               <div
                 className="flex flex-col items-center md:mx-10 md:mb-12 mx-2 mb-6"
                 key={profile.id}
