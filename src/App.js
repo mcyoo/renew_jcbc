@@ -38,7 +38,7 @@ class App extends React.Component {
   }
 
   render() {
-    const { friend_profile1, friend_profile2, friend_profile3 } = this.state;
+    const { friend_profile1, friend_profile2, friend_profile3,friend_profile4 } = this.state;
 
     return (
       <div>
@@ -141,7 +141,7 @@ class App extends React.Component {
             ))}
           </div>
           <div className="text-center text-lg mb-6 text-gray-800 my-8">
-            탱큐 베리 감사합니다 😀
+            감사합니다! 😀
           </div>
         </div>
       </div>
