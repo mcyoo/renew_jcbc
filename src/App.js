@@ -6,6 +6,7 @@ class App extends React.Component {
     friend_profile1: [],
     friend_profile2: [],
     friend_profile3: [],
+    friend_profile4: [],
     feed_location: [],
   };
 
@@ -24,12 +25,13 @@ class App extends React.Component {
 
   getData = async () => {
     const instagramData = await this.getJson();
-    const { friend_profile1, friend_profile2,friend_profile3 } = instagramData;
+    const { friend_profile1, friend_profile2,friend_profile3,friend_profile4 } = instagramData;
 
     this.setState({
       friend_profile1,
       friend_profile2,
       friend_profile3,
+      friend_profile4,
     });
   };
 
