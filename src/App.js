@@ -43,6 +43,29 @@ class App extends React.Component {
     return (
       <div>
         <div className="w-screen overflow-x-hidden">
+        <div className="text-center text-lg mb-4 text-gray-800">시즌4 16명</div>
+          <div className="flex flex-wrap text-xs md:text-sm md:mx-24 mx-2 justify-items-auto justify-evenly">
+            {friend_profile4.map((profile) => (
+              <div
+                className="flex flex-col items-center md:mx-10 md:mb-12 mx-2 mb-6"
+                key={profile.id}
+              >
+                <div className="mb-2">{profile.name}</div>
+                <div className="flex">
+                  <a
+                    href={profile.url}
+                    className="bg-gradient-to-r from-yellow-300 via-pink-400 to-red-500 p-0.5 rounded-full"
+                  >
+                    <img
+                      className="md:w-20 w-12 rounded-full border-white border-2"
+                      src={profile.img_url}
+                      alt={profile.name}
+                    />
+                  </a>
+                </div>
+              </div>
+            ))}
+          </div>
           <div className="text-center text-lg mb-4 text-gray-800">시즌3 51명</div>
           <div className="flex flex-wrap text-xs md:text-sm md:mx-24 mx-2 justify-items-auto justify-evenly">
             {friend_profile3.map((profile) => (
