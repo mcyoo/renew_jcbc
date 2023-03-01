@@ -142,9 +142,6 @@ class App extends React.Component {
               </div>
             ))}
           </div>
-          <div className="text-center text-lg mb-6 text-gray-800 my-8">
-            감사합니다! 😀
-          </div>
         </div>
       </div>
     );
