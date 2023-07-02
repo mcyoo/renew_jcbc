@@ -49,7 +49,7 @@ class App extends React.Component {
     return (
       <div>
         <div className="w-screen overflow-x-hidden">
-        <div className="text-center text-lg mb-4 text-gray-800">시즌4 46명</div>
+        <div className="text-center text-lg mb-4 text-gray-800">시즌5 47명</div>
           <div className="flex flex-wrap text-xs md:text-sm md:mx-24 mx-2 justify-items-auto justify-evenly">
             {friend_profile6.map((profile) => (
               <div
