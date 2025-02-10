@@ -61,6 +61,7 @@ class App extends React.Component {
                   <a
                     href={profile.url}
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="bg-gradient-to-r from-yellow-300 via-pink-400 to-red-500 p-0.5 rounded-full"
                   >
                     <img
@@ -85,6 +86,7 @@ class App extends React.Component {
                   <a
                     href={profile.url}
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="bg-gradient-to-r from-yellow-300 via-pink-400 to-red-500 p-0.5 rounded-full"
                   >
                     <img
@@ -109,6 +111,7 @@ class App extends React.Component {
                   <a
                     href={profile.url}
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="bg-gradient-to-r from-yellow-300 via-pink-400 to-red-500 p-0.5 rounded-full"
                   >
                     <img
@@ -133,6 +136,7 @@ class App extends React.Component {
                   <a
                     href={profile.url}
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="bg-gradient-to-r from-yellow-300 via-pink-400 to-red-500 p-0.5 rounded-full"
                   >
                     <img
@@ -159,6 +163,7 @@ class App extends React.Component {
                   <a
                     href={profile.url}
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="bg-gradient-to-r from-yellow-400 via-pink-400 to-red-600 p-0.5 rounded-full"
                   >
                     <img
@@ -186,6 +191,7 @@ class App extends React.Component {
                   <a
                     href={profile.url}
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="bg-gradient-to-r from-yellow-400 via-pink-400 to-red-600 p-0.5 rounded-full"
                   >
                     <img
